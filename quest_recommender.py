@@ -5,15 +5,17 @@ A02 - Quest Recommender
 Program that sugguests a quest type based on player level and class
 
 Inputs:
--  Player name
--  Player class
--  Player level
+-  Player name (str)
+-  Player class (str)
+-  Player level (int)
 
 Processes:
--  Input validations
+-  Validate player class
+-  Validate player level
 -  Use player class and level to determine available quests
 
 Outputs:
+-  Error message if necessary
 -  Player name
 -  Quest recommendations per class and level range
 """
