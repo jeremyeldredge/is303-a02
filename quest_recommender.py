@@ -10,11 +10,12 @@ Inputs:
 -  Player level
 
 Processes:
+-  Input validations
 -  Use player class and level to determine available quests
 
 Outputs:
 -  Player name
--  Quest recommendations and descriptions
+-  Quest recommendations per class and level range
 """
 # input collection
 player_name = input("Player name: ")
